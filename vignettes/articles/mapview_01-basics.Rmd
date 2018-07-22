@@ -18,11 +18,11 @@ knitr::opts_chunk$set(fig.width = 8.83, message = FALSE)
 **mapview** includes 3 vector type data sets: 
 
 * `breweries` - a selection of (micro-) breweries in Franconia, Bavaria.
-* `trails` - slected hiking trails in Franconia (not used in this vignette).
+* `trails` - selected hiking trails in Franconia (not used in this vignette).
 * `franconia` - administrative regions of Franconia at the district level.
 
 
-For vector data a call to `mapview` without any further arguments will produce a default map view including:
+For vector data a call to `mapview` (without any further arguments) will produce a default map view including:
 
 * a layer control to switch between 5 different background maps
 * a scale bar
